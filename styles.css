@@ -1,6 +1,43 @@
-.block {
-    color: red;
+.zagolovok{
+    color: darkred;
+    margin: 50px;
+    border-color: black;
+    border-style: dashed;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(11, 207, 233);
 }
-.gt {
-    color: blue;
+
+.birds{ 
+    background-image: url(./images/les.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    padding: 20px;
+    list-style-type: none;
+    text-align: center;
+    border-color: black;
+    border-style: dashed;
+
+}
+
+.card1{
+    color: rgb(247, 6, 6);
+    padding: 20px;
+    border-color: black;
+    border-style: dashed;
+    margin: 20px;
+}
+
+.card2{
+    color: rgb(9, 6, 179);
+    padding: 20px;
+    border-color: black;
+    border-style: dashed;
+    margin: 20px;
+}
+.knopka{
+    height: 50;
+    width: 150;
+    background-color: blueviolet;
 }
