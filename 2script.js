@@ -6,3 +6,16 @@ function superptica() {
     pic.setAttribute("class", "pic_super_ptica")
     document.getElementById("container").replaceChildren(pic) //помещаю в div (с id container) переменную pic
 }
+
+document.getElementById("vremya").addEventListener("click", vremya)
+function vremya() {
+    const time = document.createElement("div")
+    document.getElementById("time_container").replaceChildren(time)
+    time_update()
+
+    setInterval(time_update, 1000);
+
+    function time_update() {
+        time.innerHTML = new Date().toLocaleTimeString();
+    }
+}

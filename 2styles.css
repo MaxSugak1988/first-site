@@ -10,7 +10,7 @@
     
 }
 
-.container{
+.intro_container1{
     
 }
 
@@ -26,7 +26,6 @@
     border-style: dashed;
 
 }
-
 .card1{
     color: rgb(247, 6, 6);
     padding: 20px;
@@ -34,7 +33,6 @@
     border-style: dashed;
     margin: 20px;
 }
-
 .card2{
     color: rgb(9, 6, 179);
     padding: 20px;
@@ -42,6 +40,16 @@
     border-style: dashed;
     margin: 20px;
 }
+
+
+
+
+
+
+.intro_container2{
+
+}
+
 .knopka{
     height: 50;
     width: 100;
@@ -50,4 +58,8 @@
 .pic_super_ptica{
     width: 200px;
     height: 400px;
+}
+
+.knopka_vremya{
+background-color: blueviolet;
 }

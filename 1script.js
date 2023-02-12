@@ -12,6 +12,7 @@ function protect() {
 
         // window.location.replace('2index.html');
     }
+
     else {
         document.body.style.backgroundColor = 'red';
         alert("Вы не прошли!!!")
