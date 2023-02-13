@@ -18,7 +18,7 @@ function protect() {
         alert("Вы не прошли!!!")
 
         const pidor = document.createElement("p")
-        pidor.innerHTML = "Ты ПиДоР !!!"
+        pidor.innerHTML = "Ты МуДаК !!!"
         pidor.setAttribute("class", "pidor")
         document.getElementById("pidor").appendChild(pidor)
     }
