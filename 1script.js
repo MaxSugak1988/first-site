@@ -3,7 +3,7 @@ document.getElementById("knopka1").addEventListener("click", protect);
 
 function protect() {
     let check = prompt("Вы любите птиц?(да/нет)")
-    if (check === "да" || "Да") {
+    if (check === "да" || check === "Да") {
         alert("Вы прошли!");
 
         const ssulka12 = document.createElement("a") //ssulka2 равно создать тег А (ссылка)
