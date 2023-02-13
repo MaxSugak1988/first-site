@@ -1,7 +1,7 @@
 .zagolovok{
     color: rgb(0, 0, 0);
     margin: 30px;
-    width: 200px;
+    width: 230px;
     border-color: black;
     border-style: dashed;
     text-align: center;
@@ -24,17 +24,17 @@
     text-align: center;
     border-color: black;
     border-style: dashed;
-
+пше
 }
 .card1{
-    color: rgb(247, 6, 6);
+    color: rgb(18, 48, 26);
     padding: 20px;
     border-color: black;
     border-style: dashed;
     margin: 20px;
 }
 .card2{
-    color: rgb(9, 6, 179);
+    color: rgb(255, 166, 1);
     padding: 20px;
     border-color: black;
     border-style: dashed;
