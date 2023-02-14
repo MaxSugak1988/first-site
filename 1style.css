@@ -1,32 +1,50 @@
-.container1{
-    margin-left: auto;
-    margin-right: auto;
-    background-color: blueviolet;
-    width: 50%;
-    padding: 30px;
-border-color: black;
-border-style: dashed;
+.container{
+background-color: darkslategray;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+height: 200px;
+width: max-content;
+
 }
-.zagolovok{
-    margin-left: 10%;
-    margin-right: 10%;
-    background-color: rgb(14, 250, 6);
+
+
+.intro_zagolovok{
+/* display: block; */
+background-color: rgb(14, 250, 6);
 border-color: black;
 border-style: dashed;
 text-align: center;
 }
-.vstuplenie{
-    background-color: rgb(4, 238, 4);
+
+.intro_vstuplenie{
+/* display: block */
+background-color: rgb(4, 238, 4);
 border-color: black;
 border-style: dashed;
+text-align: center;
 }
+.intro_button{
+/* display: block; */
+background-color: rgb(14, 250, 6);
+border-color: black;
+border-style: dashed;
+text-align: center;
+}
+
+
 .knopka1{
-    margin-left: auto;
-    margin-right: auto;
+
 border-color: black;
 border-style: dashed; 
 background-color: chartreuse;
+text-align: center;
 }
+
+
+
+/* появляющаяся надпись */
 .pidor{
    border-color: black;
 text-align: center;

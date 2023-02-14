@@ -11,7 +11,7 @@ document.getElementById("vremya").addEventListener("click", vremya)
 function vremya() {
     const time = document.createElement("div")
     document.getElementById("time_container").replaceChildren(time)
-    time_update()
+
 
     setInterval(time_update, 1000);
 
