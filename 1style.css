@@ -2,16 +2,14 @@
 background-color: darkslategray;
 display: flex;
 flex-direction: column;
-justify-content: space-around;
+justify-content: center;
 align-items: center;
-height: 200px;
-width: max-content;
-
+flex-wrap: wrap;
 }
 
 
 .intro_zagolovok{
-/* display: block; */
+display: block;
 background-color: rgb(14, 250, 6);
 border-color: black;
 border-style: dashed;
@@ -19,14 +17,14 @@ text-align: center;
 }
 
 .intro_vstuplenie{
-/* display: block */
-background-color: rgb(4, 238, 4);
+   display: block;
+background-color: darkgreen;
 border-color: black;
 border-style: dashed;
 text-align: center;
 }
 .intro_button{
-/* display: block; */
+display: block;
 background-color: rgb(14, 250, 6);
 border-color: black;
 border-style: dashed;
@@ -46,6 +44,7 @@ text-align: center;
 
 /* появляющаяся надпись */
 .pidor{
+   display: block;
    border-color: black;
 text-align: center;
 vertical-align: middle;
@@ -53,6 +52,6 @@ vertical-align: middle;
     margin-right: auto;
     background-color: blueviolet;
     color: darkred;
-    width: 150px;
+    width: auto;
     font-size: 50px;
 }
